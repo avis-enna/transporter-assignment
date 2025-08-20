@@ -19,6 +19,18 @@ In logistics, companies need to assign transporters to various shipping lanes. E
 # Clone and run
 git clone https://github.com/avis-enna/transporter-assignment.git
 cd transporter-assignment
+./run.sh
+```
+
+The `run.sh` script will:
+- Check Java and Maven installation
+- Build and start the application
+- Load sample data automatically
+- Test the optimization API
+- Show you example commands to try
+
+**Manual start:**
+```bash
 mvn spring-boot:run
 ```
 
