@@ -1,0 +1,108 @@
+{
+  "lanes": [
+    {
+      "id": 1,
+      "origin": "Mumbai",
+      "destination": "Delhi"
+    },
+    {
+      "id": 2,
+      "origin": "Delhi",
+      "destination": "Bangalore"
+    },
+    {
+      "id": 3,
+      "origin": "Chennai",
+      "destination": "Kolkata"
+    },
+    {
+      "id": 4,
+      "origin": "Pune",
+      "destination": "Hyderabad"
+    },
+    {
+      "id": 5,
+      "origin": "Ahmedabad",
+      "destination": "Jaipur"
+    }
+  ],
+  "transporters": [
+    {
+      "id": 1,
+      "name": "Transporter T1",
+      "laneQuotes": [
+        {"laneId": 1, "quote": 20835.50},
+        {"laneId": 2, "quote": 10512.25},
+        {"laneId": 3, "quote": 22105.75},
+        {"laneId": 4, "quote": 42481.00},
+        {"laneId": 5, "quote": 19862.30}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Transporter T2",
+      "laneQuotes": [
+        {"laneId": 1, "quote": 48844.20},
+        {"laneId": 2, "quote": 31326.80},
+        {"laneId": 3, "quote": 18640.90},
+        {"laneId": 4, "quote": 45828.60},
+        {"laneId": 5, "quote": 18297.40}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Transporter T3",
+      "laneQuotes": [
+        {"laneId": 1, "quote": 39020.10},
+        {"laneId": 2, "quote": 20648.70},
+        {"laneId": 3, "quote": 31438.50},
+        {"laneId": 4, "quote": 36447.80},
+        {"laneId": 5, "quote": 12789.60}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Transporter T4",
+      "laneQuotes": [
+        {"laneId": 1, "quote": 14400.30},
+        {"laneId": 2, "quote": 44514.90},
+        {"laneId": 3, "quote": 14316.20},
+        {"laneId": 4, "quote": 10678.40},
+        {"laneId": 5, "quote": 13032.80}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Transporter T5",
+      "laneQuotes": [
+        {"laneId": 1, "quote": 11601.70},
+        {"laneId": 2, "quote": 19760.50},
+        {"laneId": 3, "quote": 40870.30},
+        {"laneId": 4, "quote": 20635.90},
+        {"laneId": 5, "quote": 26421.10}
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Transporter T6",
+      "laneQuotes": [
+        {"laneId": 1, "quote": 35095.80},
+        {"laneId": 2, "quote": 12494.60},
+        {"laneId": 3, "quote": 17808.40},
+        {"laneId": 4, "quote": 36210.70},
+        {"laneId": 5, "quote": 39444.20}
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Transporter T7",
+      "laneQuotes": [
+        {"laneId": 1, "quote": 26070.90},
+        {"laneId": 2, "quote": 41098.30},
+        {"laneId": 3, "quote": 20932.60},
+        {"laneId": 4, "quote": 16897.50},
+        {"laneId": 5, "quote": 27938.80}
+      ]
+    }
+  ]
+}
